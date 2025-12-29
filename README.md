@@ -8,39 +8,23 @@
 
 ## 项目演示
 
-![](D:\yct_test\car-Charge\images\首页-1.png)
-
-![首页-2](D:\yct_test\car-Charge\images\首页-2.png)
-
-![](D:\yct_test\car-Charge\images\电站-1.png)
-
-![电站-2](D:\yct_test\car-Charge\images\电站-2.png)
-
-![电站-3](D:\yct_test\car-Charge\images\电站-3.png)
-
-![电站-4](D:\yct_test\car-Charge\images\电站-4.png)
-
-![电站-5](D:\yct_test\car-Charge\images\电站-5.png)
-
-![订单-1](D:\yct_test\car-Charge\images\订单-1.png)
-
-![订单-2](D:\yct_test\car-Charge\images\订单-2.png)
-
-![订单-3](D:\yct_test\car-Charge\images\订单-3.png)
-
-![订单-4](D:\yct_test\car-Charge\images\订单-4.png)
-
-![扫码](D:\yct_test\car-Charge\images\扫码.png)
-
-![我的](D:\yct_test\car-Charge\images\我的.png)
-
-![我的-2](D:\yct_test\car-Charge\images\我的-2.png)
-
-![我的钱包](D:\yct_test\car-Charge\images\我的钱包.png)
-
-![优惠活动-1](D:\yct_test\car-Charge\images\优惠活动-1.png)
-
-![优惠活动-2](D:\yct_test\car-Charge\images\优惠活动-2.png)
+![输入图片说明](images/%E9%A6%96%E9%A1%B5-1.png)
+![输入图片说明](images/%E9%A6%96%E9%A1%B5-2.png)
+![输入图片说明](images/%E7%94%B5%E7%AB%99-1.png)
+![输入图片说明](images/%E7%94%B5%E7%AB%99-2.png)
+![输入图片说明](images/%E7%94%B5%E7%AB%99-3.png)
+![输入图片说明](images/%E7%94%B5%E7%AB%99-4.png)
+![输入图片说明](images/%E7%94%B5%E7%AB%99-5.png)
+![输入图片说明](images/%E8%AE%A2%E5%8D%95-1.png)
+![输入图片说明](images/%E8%AE%A2%E5%8D%95-2.png)
+![输入图片说明](images/%E8%AE%A2%E5%8D%95-3.png)
+![输入图片说明](images/%E8%AE%A2%E5%8D%95-4.png)
+![输入图片说明](images/%E6%89%AB%E7%A0%81.png)
+![输入图片说明](images/%E6%88%91%E7%9A%84.png)
+![输入图片说明](images/%E6%88%91%E7%9A%84-2.png)
+![输入图片说明](images/%E6%88%91%E7%9A%84%E9%92%B1%E5%8C%85.png)
+![输入图片说明](images/%E4%BC%98%E6%83%A0%E6%B4%BB%E5%8A%A8-1.png)
+![输入图片说明](images/%E4%BC%98%E6%83%A0%E6%B4%BB%E5%8A%A8-2.png)
 
 ## 功能模块
 
@@ -191,5 +175,6 @@ npm run build:mp-weixin
 ## 联系我
 
 本人是业余时间搞得开源项目，有任何问题都可以加我探讨
+
 
 ![](D:\yct_test\car-Charge\images\wx.png)
