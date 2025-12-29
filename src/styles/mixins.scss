@@ -1,0 +1,97 @@
+// Flex布局
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+// 文本省略
+@mixin text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin text-ellipsis-multi($lines) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+}
+
+// 边框
+@mixin border($direction: 'all', $color: $border-color, $width: 1rpx) {
+  position: relative;
+  
+  @if $direction == 'all' {
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 200%;
+      height: 200%;
+      transform: scale(0.5);
+      transform-origin: 0 0;
+      pointer-events: none;
+      box-sizing: border-box;
+      border: $width solid $color;
+    }
+  }
+  
+  @if $direction == 'bottom' {
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: $width;
+      background: $color;
+    }
+  }
+}
+
+// 阴影
+@mixin box-shadow($level: 'normal') {
+  @if $level == 'normal' {
+    box-shadow: $box-shadow;
+  }
+  
+  @if $level == 'large' {
+    box-shadow: $box-shadow-lg;
+  }
+}
+
+// 清除浮动
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

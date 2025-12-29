@@ -1,0 +1,139 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "电动车充电",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/station/list",
+			"style": {
+				"navigationBarTitleText": "附近电站",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/station/detail",
+			"style": {
+				"navigationBarTitleText": "电站详情"
+			}
+		},
+		{
+			"path": "pages/charge/control",
+			"style": {
+				"navigationBarTitleText": "充电控制",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/charge/status",
+			"style": {
+				"navigationBarTitleText": "充电状态",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/list",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		},
+		{
+			"path": "pages/user/recharge",
+			"style": {
+				"navigationBarTitleText": "充值中心"
+			}
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/payment/index",
+			"style": {
+				"navigationBarTitleText": "收银台"
+			}
+		},
+		{
+			"path": "pages/promotion/list",
+			"style": {
+				"navigationBarTitleText": "优惠活动"
+			}
+		},
+		{
+			"path": "pages/promotion/detail",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "电动车充电",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F5F5F5"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#0084ff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"custom": false,
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/station/list",
+				"iconPath": "static/tabbar/station.png",
+				"selectedIconPath": "static/tabbar/station-active.png",
+				"text": "电站"
+			},
+			{
+				"pagePath": "pages/charge/control",
+				"iconPath": "static/tabbar/scan.png",
+				"selectedIconPath": "static/tabbar/scan.png",
+				"text": "扫码"
+			},
+			{
+				"pagePath": "pages/order/list",
+				"iconPath": "static/tabbar/order.png",
+				"selectedIconPath": "static/tabbar/order-active.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/tabbar/user.png",
+				"selectedIconPath": "static/tabbar/user-active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

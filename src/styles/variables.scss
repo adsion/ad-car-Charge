@@ -1,0 +1,73 @@
+// 主题颜色
+$primary-color: #0084ff;
+$primary-color-light: rgba(0, 132, 255, 0.1);
+$success-color: #19be6b;
+$warning-color: #ff9900;
+$error-color: #ed3f14;
+$info-color: #2d8cf0;
+
+// 中性色
+$white: #ffffff;
+$black: #000000;
+$gray-1: #f8f8f9;
+$gray-2: #eeeeee;
+$gray-3: #dddee1;
+$gray-4: #bbbec4;
+$gray-5: #9ea7b4;
+$gray-6: #80848f;
+$gray-7: #657180;
+$gray-8: #495060;
+$gray-9: #343a40;
+$gray-10: #212529;
+
+// 文字颜色
+$text-color: $gray-10;
+$text-color-secondary: $gray-7;
+$text-color-tertiary: $gray-5;
+$text-color-disabled: $gray-5;
+
+// 边框颜色
+$border-color: $gray-3;
+$border-color-light: $gray-2;
+
+// 背景色
+$background-color: $gray-1;
+$background-color-light: $white;
+
+// 字体大小
+$font-size-xs: 20rpx;
+$font-size-sm: 24rpx;
+$font-size-md: 28rpx;
+$font-size-lg: 32rpx;
+$font-size-xl: 36rpx;
+$font-size-xxl: 40rpx;
+
+// 字体粗细
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// 圆角
+$border-radius-sm: 4rpx;
+$border-radius-md: 8rpx;
+$border-radius-lg: 16rpx;
+$border-radius-xl: 32rpx;
+$border-radius-circle: 50%;
+
+// 阴影
+$box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+$box-shadow-lg: 0 4rpx 20rpx rgba(0, 0, 0, 0.15);
+
+// 间距
+$spacing-xs: 10rpx;
+$spacing-sm: 20rpx;
+$spacing-md: 30rpx;
+$spacing-lg: 40rpx;
+$spacing-xl: 50rpx;
+$spacing-xxl: 60rpx;
+
+// 按钮高度
+$button-height-sm: 60rpx;
+$button-height-md: 80rpx;
+$button-height-lg: 100rpx;

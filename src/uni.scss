@@ -1,0 +1,56 @@
+// 全局样式
+@import '@/styles/variables.scss';
+@import '@/styles/mixins.scss';
+
+/* 行为相关颜色 */
+$uni-color-primary: $primary-color;
+$uni-color-success: $success-color;
+$uni-color-warning: $warning-color;
+$uni-color-error: $error-color;
+
+/* 文字基本颜色 */
+$uni-text-color: $text-color; // 基本色
+$uni-text-color-inverse: $white; // 反色
+$uni-text-color-grey: $text-color-secondary; // 辅助灰色，如加载更多的提示信息
+$uni-text-color-placeholder: $text-color-disabled; // 文字默认颜色
+$uni-text-color-disable: $text-color-disabled; // 禁用颜色
+
+/* 背景颜色 */
+$uni-bg-color: $background-color;
+$uni-bg-color-grey: $background-color-light;
+$uni-bg-color-hover: $gray-2; // 点击状态颜色
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4); // 遮罩颜色
+
+/* 边框颜色 */
+$uni-border-color: $border-color;
+
+/* 尺寸变量 */
+$uni-font-size-sm: $font-size-sm;
+$uni-font-size-base: $font-size-md;
+$uni-font-size-lg: $font-size-lg;
+
+$uni-border-radius-sm: $border-radius-sm;
+$uni-border-radius-base: $border-radius-md;
+$uni-border-radius-lg: $border-radius-lg;
+$uni-border-radius-circle: $border-radius-circle;
+
+/* 水平间距 */
+$uni-spacing-row-sm: $spacing-sm;
+$uni-spacing-row-base: $spacing-md;
+$uni-spacing-row-lg: $spacing-lg;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: $spacing-sm;
+$uni-spacing-col-base: $spacing-md;
+$uni-spacing-col-lg: $spacing-lg;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$uni-color-title: $gray-10; // 文章标题颜色
+$uni-font-size-title: $font-size-xl;
+$uni-color-subtitle: $gray-7; // 二级标题颜色
+$uni-font-size-subtitle: $font-size-lg;
+$uni-color-paragraph: $gray-8; // 文章段落颜色
+$uni-font-size-paragraph: $font-size-md;
