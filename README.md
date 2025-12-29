@@ -177,4 +177,4 @@ npm run build:mp-weixin
 本人是业余时间搞得开源项目，有任何问题都可以加我探讨
 
 
-![](D:\yct_test\car-Charge\images\wx.png)
+![输入图片说明](images/wx.png)
